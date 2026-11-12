@@ -1,0 +1,25 @@
+# Crystal / shards: installed dependencies and build output
+/*/lib/
+/*/.shards/
+/bin/
+/bin_io/
+*.dwarf
+*.o
+
+# Scratch / sandbox leftovers
+/_probe/
+/_dl/
+__pycache__/
+*.pyc
+*.log
+*.pid
+*.tgz
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# NOTE: shard.lock files ARE committed (they pin framework versions for reproducibility),
+# and so is results/ (the raw wrk output behind the README numbers).

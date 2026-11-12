@@ -1,0 +1,266 @@
+{
+ "results": [
+  {
+   "framework": "amber",
+   "label": "Amber",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 63963.22,
+   "rps_min": 63273.36,
+   "rps_max": 64485.86,
+   "avg_us": 4010.0,
+   "p50_us": 3830.0,
+   "p99_us": 9240.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "amber",
+   "label": "Amber",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 76546.01,
+   "rps_min": 70489.83,
+   "rps_max": 77367.28,
+   "avg_us": 452.68,
+   "p50_us": 397.0,
+   "p99_us": 1580.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "grip",
+   "label": "Grip",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 71514.73,
+   "rps_min": 68927.54,
+   "rps_max": 74266.68,
+   "avg_us": 3640.0,
+   "p50_us": 3260.0,
+   "p99_us": 8840.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "grip",
+   "label": "Grip",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 84117.71,
+   "rps_min": 82519.05,
+   "rps_max": 84166.45,
+   "avg_us": 415.16,
+   "p50_us": 346.0,
+   "p99_us": 1480.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "kemal",
+   "label": "Kemal",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 68839.26,
+   "rps_min": 60705.19,
+   "rps_max": 70283.62,
+   "avg_us": 3720.0,
+   "p50_us": 3560.0,
+   "p99_us": 8670.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "kemal",
+   "label": "Kemal",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 78885.57,
+   "rps_min": 74313.1,
+   "rps_max": 81707.72,
+   "avg_us": 431.56,
+   "p50_us": 378.0,
+   "p99_us": 1530.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "lucky",
+   "label": "Lucky (defaults)",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 27895.29,
+   "rps_min": 27104.74,
+   "rps_max": 28610.03,
+   "avg_us": 9120.0,
+   "p50_us": 8930.0,
+   "p99_us": 17610.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "lucky",
+   "label": "Lucky (defaults)",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 29699.48,
+   "rps_min": 29050.96,
+   "rps_max": 30055.11,
+   "avg_us": 1110.0,
+   "p50_us": 1090.0,
+   "p99_us": 2960.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "lucky_nc",
+   "label": "Lucky (cookies off)",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 50584.81,
+   "rps_min": 46510.87,
+   "rps_max": 53737.0,
+   "avg_us": 5080.0,
+   "p50_us": 4750.0,
+   "p99_us": 10840.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "lucky_nc",
+   "label": "Lucky (cookies off)",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 60769.32,
+   "rps_min": 57639.79,
+   "rps_max": 61493.69,
+   "avg_us": 556.35,
+   "p50_us": 493.0,
+   "p99_us": 1770.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "spectre",
+   "label": "Spectre",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 74555.39,
+   "rps_min": 71516.95,
+   "rps_max": 80023.97,
+   "avg_us": 3450.0,
+   "p50_us": 3240.0,
+   "p99_us": 8560.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "spectre",
+   "label": "Spectre",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 86918.22,
+   "rps_min": 80564.26,
+   "rps_max": 90883.0,
+   "avg_us": 390.23,
+   "p50_us": 350.0,
+   "p99_us": 1350.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "stdlib",
+   "label": "Crystal stdlib (baseline)",
+   "scenario": "post",
+   "conns": 256,
+   "runs": 3,
+   "rps_median": 76388.62,
+   "rps_min": 75654.0,
+   "rps_max": 80895.8,
+   "avg_us": 3350.0,
+   "p50_us": 3160.0,
+   "p99_us": 8090.0,
+   "non2xx": 0,
+   "sock_err": 0
+  },
+  {
+   "framework": "stdlib",
+   "label": "Crystal stdlib (baseline)",
+   "scenario": "post",
+   "conns": 32,
+   "runs": 3,
+   "rps_median": 90172.16,
+   "rps_min": 85435.19,
+   "rps_max": 92902.38,
+   "avg_us": 372.21,
+   "p50_us": 327.0,
+   "p99_us": 1320.0,
+   "non2xx": 0,
+   "sock_err": 0
+  }
+ ],
+ "memory": {
+  "stdlib": {
+   "idle_mb": 6.61328125,
+   "peak_mb": 50.6484375,
+   "startup_ms": 27
+  },
+  "spectre": {
+   "idle_mb": 6.57421875,
+   "peak_mb": 52.34375,
+   "startup_ms": 8
+  },
+  "kemal": {
+   "idle_mb": 7.78515625,
+   "peak_mb": 52.609375,
+   "startup_ms": 10
+  },
+  "grip": {
+   "idle_mb": 7.6328125,
+   "peak_mb": 55.59765625,
+   "startup_ms": 10
+  },
+  "amber": {
+   "idle_mb": 8.19921875,
+   "peak_mb": 54.08203125,
+   "startup_ms": 12
+  },
+  "lucky": {
+   "idle_mb": 10.3984375,
+   "peak_mb": 58.41796875,
+   "startup_ms": 29
+  },
+  "lucky_nc": {
+   "idle_mb": 8.296875,
+   "peak_mb": 59.296875,
+   "startup_ms": 26
+  }
+ },
+ "labels": {
+  "stdlib": "Crystal stdlib (baseline)",
+  "spectre": "Spectre",
+  "kemal": "Kemal",
+  "grip": "Grip",
+  "amber": "Amber",
+  "lucky": "Lucky (defaults)",
+  "lucky_nc": "Lucky (cookies off)"
+ },
+ "scenarios": {
+  "root": "GET /",
+  "user": "GET /users/:id (JSON)",
+  "post": "POST /people (typed JSON in/out)"
+ },
+ "anomalies": []
+}

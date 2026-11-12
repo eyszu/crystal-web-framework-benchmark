@@ -1,0 +1,5 @@
+name: bench_spectre
+version: 0.0.0
+dependencies:
+  spectre:
+    path: ../spectre_lib

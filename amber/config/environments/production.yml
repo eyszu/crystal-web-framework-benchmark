@@ -1,0 +1,8 @@
+name: bench_amber
+host: 0.0.0.0
+port: 3000
+process_count: 1
+secret_key_base: 0000000000000000000000000000000000000000000000000000000000000000
+logging:
+  severity: none
+  colorize: false

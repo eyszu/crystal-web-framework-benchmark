@@ -1,0 +1,6 @@
+name: bench_amber
+version: 0.0.0
+dependencies:
+  amber:
+    github: amberframework/amber
+    version: 1.5.0
