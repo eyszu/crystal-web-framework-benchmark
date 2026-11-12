@@ -4,7 +4,7 @@ Same three endpoints implemented in each framework, driven by `wrk`, one pinned 
 
 | Framework | Version | Notes |
 |---|---|---|
-| Spectre | 0.1.0 (the attached zip, in `spectre_lib/`) | |
+| Spectre | 0.1.0 (in `spectre_lib/`) | https://github.com/eyszu/spectre |
 | Kemal | 1.15.0 | |
 | Grip | 5.1.1 | |
 | Amber | 1.5.0 | latest stable; 2.0 is still beta and was not tested |
